@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barbearia</title>
+    <link rek="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="brand" aria-label="Página Inicial">
+                <span class="brand-logo">Logo</span>
+            </a>
+            <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"
+                aria-label="Abrir menu de navegação">
+                <span class="menu-toggle-line" aria-hidden="true"></span>
+                <span class="menu-toggle-line" aria-hidden="true"></span>
+                <span class="menu-toggle-line" aria-hidden="true"></span>
+            </button>
+            <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="servicos.html" class="nav-link">Serviços e Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeria.html" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="visitar-ou-marcar.html" class="nav-link">Visitar ou Marcar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tel:+351900000000" class="nav-cta">Ligar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="main.js" defer></script>
 </body>
+
 </html>
